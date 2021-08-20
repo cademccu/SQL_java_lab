@@ -15,16 +15,16 @@ MUST BE LOGGED INTO CSU MACHINE WITH MariaDB ACCESS TO USE DATABASE.
 
 In one terminal, log into database on CSU CS machine. In SQL prompt, run:
 
-'''
+```
 source run.sql
-'''
+```
 
-Which clears, creates and fills the database.
+Which clears the old database, creates and fills a clean copy of the database.
 
 Then, in a seperate window (or after logging out of the database), run:
 
-'''
+```
 ./run.sh
-'''
+```
 
 Which is a bash script that compiles and runs the java program. Must be logged into CSU CS machine, to use the SQL connector jar. 
